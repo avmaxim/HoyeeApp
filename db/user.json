@@ -1,0 +1,190 @@
+{ 
+    "_id" : ObjectId("57ac90058462be1602bd5baf"), 
+    "_class" : "com.hoyee.domains.User", 
+    "username" : "avmax19", 
+    "password" : "123qwe", 
+    "email" : "avmax19@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "userId" : NumberInt(1), 
+    "articles" : [
+        {
+            "articleId" : NumberInt(1), 
+            "isPosted" : true, 
+            "userId" : NumberInt(1), 
+            "header" : "Brianna Rollins leads US clean sweep in 100m hurdles final", 
+            "contents" : "Brianna Rollins raised her arms into the Rio night as she crossed the finish line to capture the gold medal in the 100m hurdles with American team-mates Nia Ali and Kristi Castlin among the cluster in close pursuit. Moments later came the roar from the Olympic Stadium crowd as the results flashed on the scoreboard: a 1-2-3 finish for the United States.\n\n   It marked the first sweep by any country in the history of the 100m hurdles, the first by American women in any event – and only the seventh ...", 
+            "likesCount" : NumberInt(2), 
+            "timestamp" : NumberLong(1471510317139), 
+            "comments" : [
+                {
+                    "commentId" : NumberInt(1), 
+                    "articleId" : NumberInt(1), 
+                    "userId" : NumberInt(2), 
+                    "contents" : "Nice, Brianna got the most outta this kind of sport.", 
+                    "likesCount" : NumberInt(2), 
+                    "timestamp" : NumberLong(1471510317400)
+                }, 
+                {
+                    "commentId" : NumberInt(2), 
+                    "articleId" : NumberInt(1), 
+                    "userId" : NumberInt(3), 
+                    "contents" : "Yeah, she did her best to defeat everyone in this game what everyone was looking forward to.", 
+                    "likesCount" : NumberInt(2), 
+                    "timestamp" : NumberLong(1471510317560)
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("57ac91f48462be1602bd5bb0"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(2), 
+    "username" : "alex86", 
+    "password" : "123098", 
+    "email" : "alex@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("57ac94d38462be1602bd5bb4"), 
+    "_class" : "com.hoyee.domains.User", 
+    "username" : "user", 
+    "password" : "user", 
+    "email" : "user@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "userId" : NumberInt(6), 
+    "articles" : [
+        {
+            "articleId" : NumberInt(1), 
+            "userId" : NumberInt(6), 
+            "header" : "Engineering Practicum Intern at Google? Yes, please!", 
+            "contents" : "Are you an aspiring computer scientist interested in developing your technical and professional skills while working on Google products and services? If you are looking for an opportunity that will bridge the gap between academic study and a professional technical internship, then spend your summer interning with our Google Engineering Practicum program. \n\n  The Engineering Practicum program is a 12-week developmental opportunity for first and second-year undergraduate students with a passion for technology -- especially students from historically underrepresented groups in the field. During the summer you will work alongside other Practicum interns on a software project, attend skills-based and professional development trainings, and receive mentorship from Google engineers. We will have cohorts across our US offices, allowing you to experience firsthand Google’s unique and innovative office culture.\n\n  The program is open to all qualified first and second year undergraduate university students who meet the below criteria. Students must be available for a 12-week internship from May 2016 to August 2016 or June 2016 to September 2016. We are committed to addressing diversity in the technology industry, thus students who are a member of a group that is historically underrepresented are specifically encouraged to apply.\n\n  Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to tackle some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From AdWords to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another.", 
+            "likesCount" : NumberInt(1), 
+            "timestamp" : NumberLong(1471816340262), 
+            "isPosted" : true, 
+            "comments" : [
+                {
+                    "commentId" : NumberInt(1), 
+                    "articleId" : NumberInt(1), 
+                    "userId" : NumberInt(4), 
+                    "contents" : "It's worth it, guys. I also started as Google intern. 3 years of working for Google made me look over life the other way. I opened a multitude of potentials i never used to have before.", 
+                    "likesCount" : NumberInt(10), 
+                    "timestamp" : NumberLong(1471816340662)
+                }
+            ]
+        }, 
+        {
+            "articleId" : NumberInt(2), 
+            "userId" : NumberInt(6), 
+            "header" : "Cortana: The spy in Windows 10", 
+            "contents" : "When I first saw Mr. Spock talking to the Enterprise’s computer, I thought it was so cool. I still do. But the more I look at Cortana, Windows 10’s inherent virtual assistant, the more creeped out I get.\n\nOpinion by Steven J. Vaughan-Nichols\n\nWould you subscribe to Windows?\nI don’t want to be LinkedIn with Microsoft\nIs Oracle cooking its cloud books?\nOracle’s API stance would be silly if it weren’t so dangerous\nSEE MORE\nLet’s start with Cortana’s fundamental lust for your data. When it’s working...", 
+            "likesCount" : NumberInt(1), 
+            "timestamp" : NumberLong(1471816340262), 
+            "isPosted" : true, 
+            "comments" : [
+                {
+                    "commentId" : NumberInt(1), 
+                    "articleId" : NumberInt(2), 
+                    "userId" : NumberInt(2), 
+                    "contents" : "Hehe =) We used to hack plenty of different OSs. But this one tho... Cortana is 1 of those things that supervising all the mankind around the world. Looks like it's doing that kinda stuff for gathering information, unfortunattely. it's not.", 
+                    "likesCount" : NumberInt(5), 
+                    "timestamp" : NumberLong(1471816340862)
+                }
+            ]
+        }, 
+        {
+            "articleId" : NumberInt(3), 
+            "userId" : NumberInt(6), 
+            "header" : "Bridging IT’s growing generation gap", 
+            "contents" : "Do millennials make up a substantial portion of your IT staff? If not, they will soon. Within a few years, millennials — roughly defined as people born after 1981 — will comprise the biggest demographic in the country, overtaking the baby boomers, who are today's most populous generation. By 2020, one-third of U.S. adults will be millennials, according to researchers at the University of Southern California. PricewaterhouseCoopers predicts that they will also account for more than 50% of the wor...", 
+            "likesCount" : NumberInt(1), 
+            "timestamp" : NumberLong(1471456988386), 
+            "isPosted" : false, 
+            "comments" : [
+
+            ]
+        }, 
+        {
+            "articleId" : NumberInt(4), 
+            "userId" : NumberInt(6), 
+            "header" : "The Anatomy of a JSON Web Token", 
+            "contents" : "The API model has been used a great amount recently in applications. This has come about because applications can’t just rely on their own data anymore, for a project to fully see its potential, it must be able to have third-party applications, intermingle with other applications, and have its data easily accessilbe by developers.\n\nThink of how Facebook provides an API to grab its data (as long as you are authenticated of course). Facebook also allows third-party applications and other services to access its data. This is all done through an API.\n\nNow when we talk about building our own APIs, there’s always going to be the topic of how to secure our own API. We’ve talked a bit on token based authentication, and built our own RESTful Node.js API.", 
+            "likesCount" : NumberInt(0), 
+            "timestamp" : NumberLong(1471458472644), 
+            "isPosted" : true, 
+            "comments" : [
+
+            ]
+        }, 
+        {
+            "articleId" : NumberInt(5), 
+            "userId" : NumberInt(6), 
+            "header" : "Have You Ever Wondered How Browsers Work Behind the Scenes?", 
+            "contents" : "The browsers we will talk about\n\nThere are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chrome–all of which, except for the Opera browsers, are based on WebKit. I will give examples from the open source browsers Firefox and Chrome, and Safari (which is partly open source). According to StatCounter statistics (as of J...", 
+            "likesCount" : NumberInt(1), 
+            "timestamp" : NumberLong(1471459763058), 
+            "isPosted" : true, 
+            "comments" : [
+                {
+                    "commentId" : NumberInt(1), 
+                    "articleId" : NumberInt(5), 
+                    "userId" : NumberInt(1), 
+                    "contents" : "I spent a couple of years to figure out that in details. This guy is absolutely right. Nice, man!", 
+                    "likesCount" : NumberInt(1), 
+                    "timestamp" : NumberLong(1471459763858)
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("57ac92488462be1602bd5bb1"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(3), 
+    "username" : "sbgraf", 
+    "password" : "poiuytrewq", 
+    "email" : "sbgraf@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("57ac92a28462be1602bd5bb2"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(4), 
+    "username" : "dellsupport", 
+    "password" : "1=2=3=4", 
+    "email" : "dell.support@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("57ac93648462be1602bd5bb3"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(5), 
+    "username" : "skippy89", 
+    "password" : "1234567890", 
+    "email" : "skippy@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+}
