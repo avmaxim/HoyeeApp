@@ -86,7 +86,7 @@ public class ArticleController {
     }
 
 
-    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonInclude( JsonInclude.Include.NON_NULL )
     @RequestMapping(value = "/delete/{articleId}" , method = RequestMethod.DELETE)
     public @ResponseBody ResponseEntity<?> deleteArticle( @PathVariable("articleId") int articleId){
         try{

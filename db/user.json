@@ -1,3 +1,4 @@
+[
 { 
     "_id" : ObjectId("57ac90058462be1602bd5baf"), 
     "_class" : "com.hoyee.domains.User", 
@@ -11,33 +12,15 @@
     "articles" : [
         {
             "articleId" : NumberInt(1), 
-            "isPosted" : true, 
             "userId" : NumberInt(1), 
             "header" : "Brianna Rollins leads US clean sweep in 100m hurdles final", 
-            "contents" : "Brianna Rollins raised her arms into the Rio night as she crossed the finish line to capture the gold medal in the 100m hurdles with American team-mates Nia Ali and Kristi Castlin among the cluster in close pursuit. Moments later came the roar from the Olympic Stadium crowd as the results flashed on the scoreboard: a 1-2-3 finish for the United States.\n\n   It marked the first sweep by any country in the history of the 100m hurdles, the first by American women in any event – and only the seventh ...", 
+            "contents" : "Brianna Rollins raised her arms into the Rio night as she crossed the finish line to capture the gold medal in the 100m hurdles with American team-mates Nia Ali and Kristi Castlin among the cluster in close pursuit. Moments later came the roar from the Olympic Stadium crowd as the results flashed on the scoreboard: a 1-2-3 finish for the United States.\n\nIt marked the first sweep by any country in the history of the 100m hurdles, the first by American women in any event – and only the seventh ever in athletics overall.\n\nRollins exploded from the blocks, broke away early and was never seriously challenged in posting a time of 12.48sec, with Ali taking the silver in 12.59. Castlin came from behind and leaned in at the finish to pip Great Britain’s Cindy Ofili for the bronze in 12.61. Afterward the trio, Olympic debutantes all, embraced before draping themselves in American flags handed over from the stands.\n\nThe United States’ record-extending fourth Olympic title in the event – and first since Dawn Harper in 2008 – capped a rollicking night for the Americans at the track with Tianna Bartoletta and Brittney Reese taking gold and silver respectively in the long jump and Tori Bowie winning the bronze in the 200m.\n\n“I can’t honestly remember the race, really,” Rollins said. “I do know that I hit quite a few hurdles, but I didn’t let that mess up my composure. I was able to continue to stay focused and make sure I got across that line, make sure I saw my name on top of that board. I’m so glad that God was able to guide me through that race. I couldn’t be more happy.”\n\nAll three were drawn from a talent pool that rates among the deepest in the sport. Seven of the women on the starting line at last month’s US trials were ranked in the top 10 worldwide, with five Americans having combined to post the 11 fastest times of the season. When Rollins, Ali and Castlin secured the three spots allotted Team USA, those left behind included Keni Harrison, who entered with the four fastest times in the world this year – including a world-best 12.24.", 
             "likesCount" : NumberInt(2), 
-            "timestamp" : NumberLong(1471510317139), 
-            "comments" : [
-                {
-                    "commentId" : NumberInt(1), 
-                    "articleId" : NumberInt(1), 
-                    "userId" : NumberInt(2), 
-                    "contents" : "Nice, Brianna got the most outta this kind of sport.", 
-                    "likesCount" : NumberInt(2), 
-                    "timestamp" : NumberLong(1471510317400)
-                }, 
-                {
-                    "commentId" : NumberInt(2), 
-                    "articleId" : NumberInt(1), 
-                    "userId" : NumberInt(3), 
-                    "contents" : "Yeah, she did her best to defeat everyone in this game what everyone was looking forward to.", 
-                    "likesCount" : NumberInt(2), 
-                    "timestamp" : NumberLong(1471510317560)
-                }
-            ]
+            "timestamp" : NumberLong(1472037418240), 
+            "isPosted" : true
         }
     ]
-}
+},
 { 
     "_id" : ObjectId("57ac91f48462be1602bd5bb0"), 
     "_class" : "com.hoyee.domains.User", 
@@ -51,7 +34,49 @@
     "articles" : [
 
     ]
-}
+},
+{ 
+    "_id" : ObjectId("57ac92488462be1602bd5bb1"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(3), 
+    "username" : "sbgraf", 
+    "password" : "poiuytrewq", 
+    "email" : "sbgraf@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+},
+{ 
+    "_id" : ObjectId("57ac92a28462be1602bd5bb2"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(4), 
+    "username" : "dellsupport", 
+    "password" : "1=2=3=4", 
+    "email" : "dell.support@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+},
+{ 
+    "_id" : ObjectId("57ac93648462be1602bd5bb3"), 
+    "_class" : "com.hoyee.domains.User", 
+    "userId" : NumberInt(5), 
+    "username" : "skippy89", 
+    "password" : "1234567890", 
+    "email" : "skippy@gmail.com", 
+    "role" : {
+        "roleName" : "USER"
+    }, 
+    "articles" : [
+
+    ]
+},
 { 
     "_id" : ObjectId("57ac94d38462be1602bd5bb4"), 
     "_class" : "com.hoyee.domains.User", 
@@ -86,20 +111,10 @@
             "articleId" : NumberInt(2), 
             "userId" : NumberInt(6), 
             "header" : "Cortana: The spy in Windows 10", 
-            "contents" : "When I first saw Mr. Spock talking to the Enterprise’s computer, I thought it was so cool. I still do. But the more I look at Cortana, Windows 10’s inherent virtual assistant, the more creeped out I get.\n\nOpinion by Steven J. Vaughan-Nichols\n\nWould you subscribe to Windows?\nI don’t want to be LinkedIn with Microsoft\nIs Oracle cooking its cloud books?\nOracle’s API stance would be silly if it weren’t so dangerous\nSEE MORE\nLet’s start with Cortana’s fundamental lust for your data. When it’s working...", 
+            "contents" : "When I first saw Mr. Spock talking to the Enterprise’s computer, I thought it was so cool. I still do. But the more I look at Cortana, Windows 10’s inherent virtual assistant, the more creeped out I get.\n\nLet’s start with Cortana’s fundamental lust for your data. When it’s working as your virtual assistant it’s collecting your every keystroke and spoken syllable. It does this so it can be more helpful to you. If you don’t like that, well, you’ve got more problems than just Cortana. Google Now and Apple Siri do the same things. And it’s not just virtual assistants; every cloud-based software as a service (SaaS) does this to one degree or another — Google Docs, Office 365, whatever.\n\nBut Cortana doesn’t stop there. With the recently released Windows 10 Anniversary Update, hereafter Windows 10 SP1, you can’t shut Cortana off.\n\nMaybe you don’t mind Microsoft listening to your every word so it can catch when you say, “Hey, Cortana.” I do. Yes, I want the coolness factor of being able to talk to my computer. But I want the reassurance that it’s not listening when I don’t need it to be. I want a simple on/off switch. Windows 10 SP1 doesn’t have one. This is interesting, though: Windows 10 Education does. Microsoft apparently is willing to respect the privacy of students. The rest of us? Not so much.\n\n\nWhat you can do in Windows 10 SP1 is cripple Cortana when you install the operating system. But Cortana then becomes no more than a front end to Microsoft’s Bing search engine. You lose the ability to talk to your computer. You’ll no longer be able to tell Windows 10 to get you an Uber or tell you how the Chicago Cubs did today.\n\nIf you’re anti-Cortana, don’t install Windows 10 SP1 with “Express settings.” Instead, follow the steps described by Jared Newman in PC World. You will make Windows 10 less useful but a lot more private. If you’re not comfortable with Cortana collecting your contacts, location, calendar data, and text and email content and communication history, you’ll want to do this. Don’t, though, if you want the full Cortana experience and you don’t mind Microsoft collecting everything except your car keys.\n\nAnd maybe you don’t. Many of us are reconciled to the mantra of the internet economy: “If you’re not paying for it, you are the product.” Companies such as Facebook and Google give all their free social and search goodies in return for our web history, which they then transform into cash with targeted advertising. And as for Microsoft, it makes a point of saying Cortana doesn’t do that. Why do I not feel reassured?\n\nNow that I think of it, though, you can’t (easily) get Windows 10 for free anymore. So you get to pay Microsoft with both cash ($199.99 for Windows 10 Pro) and your data. Oh boy!\n\n\nMicrosoft also claims that Windows 10 SP1 is safer than ever, which I find even less assuring than the promise not to exploit all that Cortana data. Think about this: You can use Cortana from the lock screen. That’s right; Cortana is active and listening to when your PC is locked. Well, it’s supposed to be locked, but if it’s able to listen, how locked down is it, really? Not very!\n\nMicrosoft calls this a feature that gives you the ability to ask your PC simple questions without logging in. But I call anything that lets me input data into a PC without being logged into it a bug. It’s a security hole begging to be exploited. Windows, which God knows has had more than enough security problems, now has a new attack surface.", 
             "likesCount" : NumberInt(1), 
-            "timestamp" : NumberLong(1471816340262), 
-            "isPosted" : true, 
-            "comments" : [
-                {
-                    "commentId" : NumberInt(1), 
-                    "articleId" : NumberInt(2), 
-                    "userId" : NumberInt(2), 
-                    "contents" : "Hehe =) We used to hack plenty of different OSs. But this one tho... Cortana is 1 of those things that supervising all the mankind around the world. Looks like it's doing that kinda stuff for gathering information, unfortunattely. it's not.", 
-                    "likesCount" : NumberInt(5), 
-                    "timestamp" : NumberLong(1471816340862)
-                }
-            ]
+            "timestamp" : NumberLong(1472037866216), 
+            "isPosted" : true
         }, 
         {
             "articleId" : NumberInt(3), 
@@ -129,7 +144,7 @@
             "articleId" : NumberInt(5), 
             "userId" : NumberInt(6), 
             "header" : "Have You Ever Wondered How Browsers Work Behind the Scenes?", 
-            "contents" : "The browsers we will talk about\n\nThere are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chrome–all of which, except for the Opera browsers, are based on WebKit. I will give examples from the open source browsers Firefox and Chrome, and Safari (which is partly open source). According to StatCounter statistics (as of J...", 
+            "contents" : "   The browsers we will talk about\n\n   There are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chrome–all of which, except for the Opera browsers, are based on WebKit. I will give examples from the open source browsers Firefox and Chrome, and Safari (which is partly open source). According to StatCounter statistics (as of June 2013) Chrome, Firefox and Safari make up around 71% of global desktop browser usage. On mobile, Android Browser, iPhone and Chrome constitute around 54% of usage.\n\n   The browser's main functionality\n\n   The main function of a browser is to present the web resource you choose, by requesting it from the server and displaying it in the browser window. The resource is usually an HTML document, but may also be a PDF, image, or some other type of content. The location of the resource is specified by the user using a URI (Uniform Resource Identifier).\n\n   The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.\n\n   Browser user interfaces have a lot in common with each other. Among the common user interface elements are:\n\n   Address bar for inserting a URI.\n\n   Back and forward buttons.\n\n   Bookmarking options.\n\n   Refresh and stop buttons for refreshing or stopping the loading of current documents\n\n   Home button that takes you to your home page. \n\n   Strangely enough, the browser's user interface is not specified in any formal specification, it just comes from good practices shaped over years of experience and by browsers imitating each other. The HTML5 specification doesn't define UI elements a browser must have, but lists some common elements. Among those are the address bar, status bar and tool bar. There are, of course, features unique to a specific browser like Firefox's downloads manager.\n\n   The browser's high level structure\n\n\n   The browser's main components are (1.1):\n\n\n   The user interface: this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.\n\n   The browser engine: marshals actions between the UI and the rendering engine.\n\n   The rendering engine : responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.\n\n   Networking: for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.\n\n   UI backend: used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.\n\n   JavaScript interpreter. Used to parse and execute JavaScript code.\n\n   Data storage. This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.\n\n\n   Figure : Browser components", 
             "likesCount" : NumberInt(1), 
             "timestamp" : NumberLong(1471459763058), 
             "isPosted" : true, 
@@ -146,45 +161,4 @@
         }
     ]
 }
-{ 
-    "_id" : ObjectId("57ac92488462be1602bd5bb1"), 
-    "_class" : "com.hoyee.domains.User", 
-    "userId" : NumberInt(3), 
-    "username" : "sbgraf", 
-    "password" : "poiuytrewq", 
-    "email" : "sbgraf@gmail.com", 
-    "role" : {
-        "roleName" : "USER"
-    }, 
-    "articles" : [
-
-    ]
-}
-{ 
-    "_id" : ObjectId("57ac92a28462be1602bd5bb2"), 
-    "_class" : "com.hoyee.domains.User", 
-    "userId" : NumberInt(4), 
-    "username" : "dellsupport", 
-    "password" : "1=2=3=4", 
-    "email" : "dell.support@gmail.com", 
-    "role" : {
-        "roleName" : "USER"
-    }, 
-    "articles" : [
-
-    ]
-}
-{ 
-    "_id" : ObjectId("57ac93648462be1602bd5bb3"), 
-    "_class" : "com.hoyee.domains.User", 
-    "userId" : NumberInt(5), 
-    "username" : "skippy89", 
-    "password" : "1234567890", 
-    "email" : "skippy@gmail.com", 
-    "role" : {
-        "roleName" : "USER"
-    }, 
-    "articles" : [
-
-    ]
-}
+]

@@ -120,7 +120,7 @@ public class UserService implements IUserService{
                 article.setHeader(articleToUpdate.getHeader());
                 article.setContents(articleToUpdate.getContents());
                 article.setLikesCount(articleToUpdate.getLikesCount());
-                article.setComments(articleToUpdate.getComments());
+                //article.setComments(articleToUpdate.getComments());
                 article.setTimestamp(articleToUpdate.getTimestamp());
                 mongoOperations.save(user, "user");
                 return article.getArticleId();
