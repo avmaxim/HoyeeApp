@@ -1,6 +1,7 @@
 package com.hoyee.services;
 
 import com.hoyee.domains.Article;
+import com.hoyee.domains.Comment;
 import com.hoyee.domains.Role;
 import com.hoyee.domains.User;
 import com.hoyee.exceptions.BadRequestException;
@@ -64,6 +65,7 @@ public class UserService implements IUserService{
         user.setEmail(person.getEmail());
         user.setUsername(person.getUsername());
         user.setPassword(person.getPassword());
+        user.setAvatar("https://localhost:8080/abc.png");
         user.setRole(new Role("USER"));
         mongoOperations.save(user, "user");
         return user.getId().toString();
@@ -120,7 +122,7 @@ public class UserService implements IUserService{
                 article.setHeader(articleToUpdate.getHeader());
                 article.setContents(articleToUpdate.getContents());
                 article.setLikesCount(articleToUpdate.getLikesCount());
-                //article.setComments(articleToUpdate.getComments());
+                //article.setComments(new ArrayList<Comment>());              //implement when genericComment feature on front will be available
                 article.setTimestamp(articleToUpdate.getTimestamp());
                 mongoOperations.save(user, "user");
                 return article.getArticleId();

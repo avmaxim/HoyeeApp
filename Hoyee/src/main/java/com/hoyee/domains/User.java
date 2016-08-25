@@ -23,6 +23,8 @@ public class User {
     private String email;
     private Role role;
     private Integer userId;
+    private String avatar;
+
     private List<Article> articles;
 
     public User(){}
@@ -38,6 +40,13 @@ public class User {
     }
     public void setUsername(String username){
         this.username = username;
+    }
+
+    public String getAvatar(){
+        return avatar;
+    }
+    public void setAvatar(String avatar){
+        this.avatar = avatar;
     }
 
     public String getPassword(){

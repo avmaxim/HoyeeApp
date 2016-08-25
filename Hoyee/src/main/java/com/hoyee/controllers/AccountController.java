@@ -45,8 +45,12 @@ public class AccountController {
 
     @RequestMapping(value = "/register" , method = RequestMethod.POST)
     public @ResponseBody  ResponseEntity<String> registerUser(@RequestBody UserRegisterModel person) {
-        String userId = userService.save( person );
-        return new ResponseEntity<>(new Gson().toJson(userId), HttpStatus.OK);
+        try {
+            String userId = userService.save(person);
+            return new ResponseEntity<>(new Gson().toJson(userId), HttpStatus.OK);
+        }catch(Exception ex){
+            return new ResponseEntity<>(new Gson().toJson(ex.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
 }
